@@ -1,0 +1,31 @@
+<%- include('partials/header.ejs') %>
+  <body style="background-color: #dadada;">
+    
+   <div class="principal" style="background-color: #dadada;">
+
+    <div class="container" style="background-color: #dadada; width: 100%;">
+        <br>
+        <div class="title text-center">
+            <h1>3D Tecnology</h1>
+        </div>
+        <br>
+        <div class="form" style="background-color: #dadada;">
+        <div class='form-config'>
+            <form action="/logado" method="post">
+                <label for="">Digite seu e-mail</label>
+                <div><input type="email" class="btn btn-light" name="email" id="" placeholder="Digite seu e-mail"></div>
+                <br>
+                <label for="">Digite sua senha</label>
+                <div><input type="password" class="btn btn-light" name="senha" id="" placeholder="Digite sua senha"></div>
+                <p><a href="/cadastro" style="padding-top: 10px; padding-bottom: 10px;">Criar conta</a></p>
+                <div><input type="submit" class="btn btn-success" name="senha_2" id="" value="Logar"></div>
+            </form>
+        </div>
+    </div>
+    </div>
+  </div>
+  </body>
+ 
+  <%- include('partials/footer.ejs') %>
+
+</html>
