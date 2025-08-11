@@ -1,0 +1,6 @@
+{
+  "workbench.editor.decorations.colors": true,
+  "window.autoDetectColorScheme": false,
+  "window.zoomPerWindow": false,
+  "files.autoSave": "afterDelay"
+}
